@@ -1,0 +1,37 @@
+{
+  "toko": {
+    "nama": "Heaven Scent Official Store",
+    "tagline": "Parfum Heaven Scent SBY original dari toko resmi di Shopee",
+    "deskripsi": "Katalog parfum dan pengharum Heaven Scent SBY dari toko resmi di Shopee. Harga dapat berubah mengikuti promo, cek harga terbaru langsung di Shopee.",
+    "shopee": "https://shopee.co.id/heavenscent.id",
+    "whatsapp": "6287863237862"
+  },
+  "keywords": {
+    "jam buka": "jam buka",
+    "jam operasional": "jam buka",
+    "buka jam": "jam buka",
+    "alamat": "alamat",
+    "lokasi": "alamat",
+    "dimana": "alamat",
+    "cara pesan": "cara pesan",
+    "cara order": "cara pesan",
+    "cara beli": "cara pesan",
+    "order": "cara pesan",
+    "pengiriman": "pengiriman",
+    "kirim": "pengiriman",
+    "ongkir": "pengiriman",
+    "kontak": "kontak",
+    "original": "original",
+    "ori": "original",
+    "asli": "original",
+    "palsu": "original"
+  },
+  "responses": {
+    "jam buka": "Informasi jam operasional belum tersedia di data kami. Silakan cek halaman lapak Shopee atau tanyakan lewat chat Shopee.",
+    "alamat": "Pembelian dilakukan online lewat Shopee. Untuk detail alamat lapak, silakan cek halaman lapak di Shopee.",
+    "cara pesan": "Cara pesan: 1) pilih produk di katalog, 2) klik tombol Beli di Shopee atau chat kami lewat WhatsApp, 3) selesaikan pembayaran di Shopee.",
+    "pengiriman": "Pengiriman mengikuti pilihan ekspedisi yang tersedia di Shopee saat checkout.",
+    "kontak": "Hubungi kami lewat halaman lapak Shopee (tombol Buka Lapak) atau tombol Chat WhatsApp di website.",
+    "original": "Heaven Scent Official Store adalah toko resmi berlabel Shopee Mall (ORI) di Shopee. Untuk detail produk dan garansi, silakan cek halaman produknya langsung di Shopee."
+  }
+}

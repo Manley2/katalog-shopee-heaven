@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Katalog Lapak Shopee</title>
+  <meta name="description" content="Katalog produk lapak Shopee dengan asisten chatbot berbasis RAG.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-in">
+      <div>
+        <h1 id="shopName">Memuat…</h1>
+        <p id="shopTag" class="muted"></p>
+      </div>
+      <div class="top-actions">
+        <a id="btnShopee" class="btn btn-shopee" target="_blank" rel="noopener">Buka Lapak Shopee</a>
+        <a id="btnWa" class="btn btn-wa" target="_blank" rel="noopener">Chat WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p id="shopDesc"></p>
+      <ul class="stats" id="stats"></ul>
+    </section>
+
+    <section aria-label="Katalog produk">
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Cari produk…" aria-label="Cari produk">
+        <select id="sort" aria-label="Urutkan">
+          <option value="default">Urutan awal</option>
+          <option value="laris">Terlaris</option>
+          <option value="murah">Harga terendah</option>
+          <option value="mahal">Harga tertinggi</option>
+        </select>
+      </div>
+      <div id="chips" class="chips" role="tablist"></div>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="muted" hidden>Tidak ada produk yang cocok.</p>
+    </section>
+  </main>
+
+  <footer class="wrap foot muted">Data produk diambil dari lapak Shopee. Harga dan stok dapat berubah, cek langsung di Shopee sebelum membeli.</footer>
+
+  <!-- Chatbot -->
+  <button id="chatFab" class="fab" aria-label="Buka chatbot">💬 Tanya Asisten</button>
+  <section id="chat" class="chat" hidden aria-label="Chatbot">
+    <div class="chat-head">
+      <strong>Asisten Toko</strong>
+      <button id="chatClose" aria-label="Tutup chatbot">✕</button>
+    </div>
+    <div id="msgs" class="msgs" aria-live="polite"></div>
+    <div id="suggest" class="suggest"></div>
+    <form id="chatForm" class="chat-form" autocomplete="off">
+      <input id="chatInput" type="text" maxlength="500" placeholder="Tulis pertanyaan…" aria-label="Pesan">
+      <button type="submit" class="btn btn-primary">Kirim</button>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

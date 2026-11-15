@@ -1,0 +1,25 @@
+{
+  "name": "katalog-shopee-chatbot",
+  "version": "1.0.0",
+  "description": "Website katalog lapak Shopee + chatbot RAG (Groq) + gateway WhatsApp",
+  "private": true,
+  "scripts": {
+    "build-data": "node scripts/build-data.js",
+    "import": "node scripts/import-shopee.js",
+    "dev": "node server.js",
+    "wa": "node gateway/wa.js",
+    "cek": "node scripts/cek-data.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "groq-sdk": "^0.7.0"
+  },
+  "optionalDependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}

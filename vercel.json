@@ -1,0 +1,9 @@
+{
+  "installCommand": "npm install --omit=optional",
+  "functions": {
+    "api/chat.js": {
+      "maxDuration": 30,
+      "includeFiles": "data/**"
+    }
+  }
+}
